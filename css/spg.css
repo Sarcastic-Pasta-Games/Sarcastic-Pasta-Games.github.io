@@ -1,0 +1,55 @@
+body {
+  background-image: url("../img/spg-codewireland1.png");
+  background-repeat: repeat;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img {
+  max-width: 100%;
+}
+
+
+a {
+  color: white;
+}
+
+.slide {
+  width: 40%;
+  margin: auto;
+  height: 60%;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: white;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  outline-style: none;
+  -moz-outline-style: none;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+.blue-text {
+  color: #30BDFF;
+}
+
+hr {
+  border-color: white;
+  height: 1px;
+  width: 15%;
+}
