@@ -10,6 +10,50 @@ img {
   max-width: 100%;
 }
 
+@media(min-width:1025px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+
+@media(max-width:900px) {
+  .navbar .navbar-brand {
+    float: none;
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav>.nav-item {
+    float: none;
+    margin-left: .1rem;
+  }
+
+  .navbar .navbar-nav {
+    float: none !important;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+  }
+
+  .navbar-toggleable-sm.collapse {
+    display: none !important
+  }
+
+  .navbar-toggleable-sm.collapse.in {
+    display: block !important
+  }
+}
+
+
+.navbar-toggler-icon {
+  background-color: white;
+}
 
 a {
   color: white;
