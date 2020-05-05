@@ -6,8 +6,33 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.tbin-background {
+  background-image: url("../img/pl_005.png");
+  background-repeat: repeat;
+}
+
+.glitch-background {
+  background-image: url("../img/pl_002.png");
+  background-repeat: repeat;
+}
+
 img {
   max-width: 100%;
+}
+
+
+a {
+  color: white;
+}
+
+.dropdown-item:hover {
+  color: #f8f9fa;
+  background-color: rgb(18, 107, 148);
+}
+
+a .dropdown-item {
+  color: #f8f9fa;
+  background-color: #343a40;
 }
 
 @media(min-width:1025px) {
@@ -55,9 +80,6 @@ img {
   background-color: white;
 }
 
-a {
-  color: white;
-}
 
 .slide {
   width: 40%;
@@ -91,6 +113,9 @@ h3 {
 .blue-text {
   color: #30BDFF;
 }
+
+
+
 
 hr {
   border-color: white;
