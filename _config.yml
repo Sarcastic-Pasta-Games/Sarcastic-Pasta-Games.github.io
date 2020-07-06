@@ -1,5 +1,5 @@
 name: Sarcastic Pasta Games
-
+title: Sarcastic Pasta
 markdown: kramdown
 kramdown:
   input: GFM
