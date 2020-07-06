@@ -1,56 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/spg.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crew</title>
-</head>
-
-<body>
-  <h1><i>Sarcastic Pasta Games</i></h1>
-  <div role="navigation">
-    <button class="navbar-toggler " aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation" data-target="#menuGames" data-toggle="collapse">
-      <i class="fa fa-bars" style="background-color: white; " aria-hidden="true"></i>
-
-    </button>
-
-
-    <ul class="nav justify-content-center navbar-collapse " id="menuGames">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="games.html">Games</a>
-        <div class="dropdown-menu navbar-dark bg-dark">
-          <a class="dropdown-item text-white" href="/our-games/the-boss.html">The BOSS</a>
-          <a class="dropdown-item text-white" href="/our-games/the-boss-is-nothing.html">The BOSS is
-            nothing</a>
-          <a class="dropdown-item text-white" href="/our-games/glitch-in-the-system.html">Glitch in the
-            system</a>
-          <a class="dropdown-item text-white" href="/our-games/spark.html">Spark</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="crew.html">Crew</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="blog.html">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="merchandise.html">Merchandise</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-
-  <h2>
+---
+title: Crew
+layout: default
+--- 
+ <h2>
     Our crew
   </h2>
   <article>
@@ -221,42 +173,3 @@
       reading, food, YouTube, and naps.
     </p>
   </article>
-  <br />
-  <br />
-  <a href="mailto@sarcasticpastagames@gmail.com">sarcasticpastagames@gmail.com</a>
-  <hr>
-  <p>© 2020 by Sarcastic Pasta Games.</p>
-  <hr>
-  <div>
-    <a href="sarcastic-pasta-games.tumblr.com">
-
-    </a>
-    <a href="https://www.youtube.com/channel/UCq1p3Cvybzv5G8pLTIO1_Ow">
-
-    </a>
-    <a href="https://www.patreon.com/sarcasticpastagames">
-
-    </a>
-    <a href="https://twitter.com/Sarcastic_Pasta">
-
-    </a>
-    <a href="https://www.facebook.com/SarcasticPasta/">
-
-    </a>
-    <a href="https://www.instagram.com/sarcastic_pasta_games/">
-
-    </a>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
