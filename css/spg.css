@@ -6,6 +6,16 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.white-background
+{
+    background-color:white; 
+    color: black; 
+    max-width: 50%;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .tbin-background {
   background-image: url("../img/pl_005.png");
   background-repeat: repeat;
@@ -25,8 +35,31 @@ a {
   color: white;
 }
 
+.white-background a
+{
+  color:black; 
+}
+
+
+.white-background a:active ,
+.white-background a:focus ,
+ .white-background a:hover
+{
+   color: rgb(18, 107, 148);
+}
+
+a:hover .white-background
+{
+  color:black
+}
+
 .dropdown-item:hover {
   color: #f8f9fa;
+  background-color: rgb(18, 107, 148);
+}
+
+.white-background .dropdown-item {
+  color: black;
   background-color: rgb(18, 107, 148);
 }
 
@@ -42,7 +75,8 @@ a .dropdown-item {
 }
 
 
-@media(max-width:900px) {
+@media(max-width:900px) 
+{
   .navbar .navbar-brand {
     float: none;
     display: inline-block;
@@ -114,7 +148,10 @@ h3 {
   color: #30BDFF;
 }
 
-
+ul
+{
+  list-style-type: none;
+}
 
 
 hr {
