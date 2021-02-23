@@ -5,14 +5,6 @@ layout: default
 <h2>Sarcastic Pasta Merchandise</h2>
   <div class="row mx-auto">
     <div class="col">
-      <a href="https://www.etsy.com/shop/mirrorgempins?section_id=23957670">
-        <img src="img/BOSS pin.jpg" style="width:55%; height:55%" alt="Boss pin">
-      </a>
-      <br />
-      <h3>Pins</h3>
-      <p>All pins by mirrorgempins!</p>
-    </div>
-    <div class="col">
       <a
         href="https://www.redbubble.com/people/sarcastic-pasta/works/31414902-sarcastic-pasta-games-official-logo?cat_context=u-tees&grid_pos=1&p=t-shirt&rbs=5ea2b554-320f-4e88-a25e-25853949df9b&ref=shop_grid&style=mens&searchTerm=sarcastic%20pasta%20t-shirts&iaCode=u-tees">
         <img src="img/SPG tshirt_edited.jpg" style="width:35%; height:60%" alt="Sarcastic Pasta t-shirt">
