@@ -2,7 +2,7 @@
 title: Glitch in the System
 layout: default
 --- 
- <img src="{{base}}/img/GiTS LOGO2.png" style="width:28%;height:28%" alt="Glitch in the System Logo" title="Glitch in the System Logo">
+ <img src="{{site.baseurl}} /img/GiTS LOGO2.png" style="width:28%;height:28%" alt="Glitch in the System Logo" title="Glitch in the System Logo">
   <article>
     <b>
       <i>

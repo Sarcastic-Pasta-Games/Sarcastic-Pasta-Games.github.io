@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="{{base}}/css/spg.css">
+  <link rel="stylesheet" type="text/css" href={{ "css/spg.css" | absolute_url }}>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | upcase }} | {{ site.title }}</title>
+  {% feed_meta %}
+  {% seo %}
 </head>
 
 <body>
@@ -23,30 +25,30 @@
 
     <ul class="nav justify-content-center navbar-collapse " id="menuGames">
       <li class="nav-item">
-        <a class="nav-link" href="{{base}}/index.html">Home</a>
+        <a class="nav-link" href="index.html | relat">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="games.html">Games</a>
+        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="{% link games.md %}">Games</a>
         <div class="dropdown-menu navbar-dark bg-dark">
-          <a class="dropdown-item text-white" href="{{base}}/our-games/the-boss.html">The BOSS</a>
-          <a class="dropdown-item text-white" href="{{base}}/our-games/the-boss-is-nothing.html">The BOSS is
+          <a class="dropdown-item text-white" href="{% link our-games/the-boss.md %}">The BOSS</a>
+          <a class="dropdown-item text-white" href="{% link our-games/the-boss-is-nothing.md %}">The BOSS is
             nothing</a>
-          <a class="dropdown-item text-white" href="{{base}}/our-games/glitch-in-the-system.html">Glitch in the
+          <a class="dropdown-item text-white" href="{% link our-games/glitch-in-the-system.md %}">Glitch in the
             system</a>
-          <a class="dropdown-item text-white" href="{{base}}/our-games/spark.html">Spark</a>
+          <a class="dropdown-item text-white" href="{% link our-games/spark.md %}">Spark</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{base}}/crew.html">Crew</a>
+        <a class="nav-link" href="{% link crew.md %}">Crew</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{base}}/blog.html">Blog</a>
+        <a class="nav-link" href="{% link blog.md %}">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{base}}/merchandise.html">Merchandise</a>
+        <a class="nav-link" href="{% link merchandise.md %}">Merchandise</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{base}}/contact.html">Contact</a>
+        <a class="nav-link" href="{% link contact.md %}">Contact</a>
       </li>
     </ul>
   </div>
@@ -60,22 +62,24 @@
   <hr>
   <div>
     <a href="sarcastic-pasta-games.tumblr.com">
-      <img src="{{base}}/img/Tumblr.png" alt="Tumblr icon" title="Our Tumblr" style="width:5%;height:5%">
+      <img src={{ "img\Tumblr.png" | absolute_url }} alt="Tumblr icon" title="Our Tumblr" style="width:5%;height:5%">
     </a>
     <a href="https://www.youtube.com/channel/UCq1p3Cvybzv5G8pLTIO1_Ow">
-      <img src="{{base}}/img/Youtube.png" alt="YouTube icon" title="Our YouTube" style="width:5%;height:5%">
+      <img src={{ "img\Youtube.png" | absolute_url }} alt="YouTube icon" title="Our YouTube" style="width:5%;height:5%">
     </a>
     <a href="https://www.patreon.com/sarcasticpastagames">
-      <img src="{{base}}/img/Patreon.png" alt="Patreon icon" title="Our Patreon" style="width:5%;height:5%">
+      <img src={{ "img\Patreon.png" | absolute_url }} alt="Patreon icon" title="Our Patreon" style="width:5%;height:5%">
     </a>
     <a href="https://twitter.com/Sarcastic_Pasta">
-      <img src="{{base}}/img/Twitter.png" alt="Twitch icon" title="Our Twitch" style="width:5%;height:5%">
+      <img src={{ "img\Twitter.png" | absolute_url }} alt="Twitch icon" title="Our Twitch" style="width:5%;height:5%">
     </a>
     <a href="https://www.facebook.com/SarcasticPasta/">
-      <img src="{{base}}/img/Facebook.png" alt="Facebook icon" title="Our Facebook" style="width:5%;height:5%">
+      <img src={{ "img\Facebook.png" | absolute_url }} alt="Facebook icon" title="Our Facebook"
+        style="width:5%;height:5%">
     </a>
     <a href="https://www.instagram.com/sarcastic_pasta_games/">
-      <img src="{{base}}/img/Instagram.png" alt="Instagram icon" title="Our Instagram" style="width:5%;height:5%">
+      <img src={{ "img\Instagram.png" | absolute_url }} alt="Instagram icon" title="Our Instagram"
+        style="width:5%;height:5%">
     </a>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
