@@ -81,35 +81,6 @@ layout: default
       Sarcastic Pasta and hopes you enjoy what she contributes!
     </p>
     <h4>
-      Kashi's Art
-    </h4>
-    <p>
-      Kashi is a self taught artist going by "Kashi's Art". He has a love/hate relationship with drawing and art and
-      describes<br />
-      himself as a bit of a masochist. He joined the team after seeing the fan game The BOSS. Now he is helping the
-      studio to<br />
-      draw each of the characters in the games. He really hopes you enjoy what you see on the screen.<br />
-    </p>
-    <h4>
-      PhoenixIsLost
-    </h4>
-    <p>
-      Surprisingly, not an actual mythological bird. (But probably still needs a map). Phoenix is a mostly self-taught
-      artist <br />
-      with a focus on digital illustration. He is currently studying illustration at the University of Central Florida
-      and <br />
-      plans to continue his education in pursuit of higher degrees in art direction and professional application. He has
-      a <br />
-      genuine love for immersive art, such as theme park design and game design, where it’s possible to be somewhere and
-      <br />
-      someone else for a day. His ambitions are pretty simple; he just wants to draw and make people smile. Phoenix
-      joined SPG <br />
-      following a casting call for an artist for The BOSS: Glitch in the System. He almost didn’t apply, due to a lack
-      of <br />
-      confidence. In the end, he’s glad that he did and is ecstatic to be working with the team. He is currently on
-      hiatus.
-    </p>
-    <h4>
       Ace
     </h4>
     <p>
