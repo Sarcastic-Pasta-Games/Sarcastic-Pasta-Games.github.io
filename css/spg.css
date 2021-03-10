@@ -159,3 +159,11 @@ hr {
   height: 1px;
   width: 15%;
 }
+
+article p 
+{
+  margin-top:0;
+  margin-left:25%;
+  margin-right:25%;
+
+}
