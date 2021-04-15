@@ -1,0 +1,169 @@
+body {
+  background-image: url("../img/spg-codewireland1.png");
+  background-repeat: repeat;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.white-background
+{
+    background-color:white; 
+    color: black; 
+    max-width: 50%;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tbin-background {
+  background-image: url("../img/pl_005.png");
+  background-repeat: repeat;
+}
+
+.glitch-background {
+  background-image: url("../img/pl_002.png");
+  background-repeat: repeat;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+a {
+  color: white;
+}
+
+.white-background a
+{
+  color:black; 
+}
+
+
+.white-background a:active ,
+.white-background a:focus ,
+ .white-background a:hover
+{
+   color: rgb(18, 107, 148);
+}
+
+a:hover .white-background
+{
+  color:black
+}
+
+.dropdown-item:hover {
+  color: #f8f9fa;
+  background-color: rgb(18, 107, 148);
+}
+
+.white-background .dropdown-item {
+  color: black;
+  background-color: rgb(18, 107, 148);
+}
+
+a .dropdown-item {
+  color: #f8f9fa;
+  background-color: #343a40;
+}
+
+@media(min-width:1025px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+
+@media(max-width:900px) 
+{
+  .navbar .navbar-brand {
+    float: none;
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav>.nav-item {
+    float: none;
+    margin-left: .1rem;
+  }
+
+  .navbar .navbar-nav {
+    float: none !important;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar-toggler {
+    display: block !important;
+  }
+
+  .navbar-toggleable-sm.collapse {
+    display: none !important
+  }
+
+  .navbar-toggleable-sm.collapse.in {
+    display: block !important
+  }
+}
+
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+
+.slide {
+  width: 40%;
+  margin: auto;
+  height: 60%;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: white;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  outline-style: none;
+  -moz-outline-style: none;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 250%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+.blue-text {
+  color: #30BDFF;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+
+hr {
+  border-color: white;
+  height: 1px;
+  width: 15%;
+}
+
+article p 
+{
+  margin-top:0;
+  margin-left:25%;
+  margin-right:25%;
+
+}
