@@ -14,8 +14,11 @@ layout: default
 
 <div class="white-background">
   <h2>{{ page.title }}</h2>
+  {% if page.author %}
   <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
+  {% else %}
+  <p>{{ page.date | date_to_string }}</p>
+  {% endif %}
 
   <p>{{ content }}</p>
 </div>
