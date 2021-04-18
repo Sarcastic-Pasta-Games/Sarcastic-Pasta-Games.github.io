@@ -165,5 +165,51 @@ article p
   margin-top:0;
   margin-left:25%;
   margin-right:25%;
+}
 
+
+@media screen and (min-width:1200px)
+{
+  img 
+  {
+    width:30%;
+    height:30%;
+  }
+
+}
+
+/*
+ * HD Desktop computers
+*/ 
+@media screen and (min-width:1200px)
+{
+  img 
+  {
+    width:30%;
+    height:30%;
+  }
+}
+
+/*
+ * Tablets
+*/ 
+@media screen and (max-width:1199px) and (min-width:401px)
+{
+  img 
+  {
+    width:30%;
+    height:30%;
+  }
+}
+
+/*
+ * Phones
+*/ 
+@media screen and (max-width:1199px) and (min-width:401px)
+{
+  img 
+  {
+    width:50%;
+    height:50%;
+  }
 }
