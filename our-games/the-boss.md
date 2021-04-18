@@ -2,7 +2,7 @@
 title: The Boss
 layout: default
 --- 
-<img src="{{relative}}../img/the%20boss%20image.png" style="width:20%; height:20%" alt="The BOSS Logo" title="The BOSS logo"/>
+<img src="{{relative}}../img/the%20boss%20image.png" style="width:40%; height:40%" alt="The BOSS Logo" title="The BOSS logo"/>
 <article>
   <p>It happened in an instant. Millions of people all over the world have fallen unconscious.
     Scientists are <br> baffled.
