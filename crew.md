@@ -30,4 +30,12 @@ layout: default
           <p>{{ staff_member.content | markdownify }}</p>
         {% endif %}
     {% endfor %}
+
+      <h3 class="blue-text">Programming</h3>
+      {% for staff_member in site.crew %}
+        {% if staff_member.position == "Code" %}
+          <h4>{{ staff_member.name }}</h4>
+          <p>{{ staff_member.content | markdownify }}</p>
+        {% endif %}
+    {% endfor %}
   </article>
