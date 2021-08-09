@@ -25,3 +25,4 @@ function to_relative(link, index) {
     document.querySelectorAll('img').forEach(image => { image.src = to_relative(image.src, false); });
   }
 });
+

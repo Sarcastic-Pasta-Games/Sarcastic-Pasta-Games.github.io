@@ -10,10 +10,14 @@ body {
 {
     background-color:white; 
     color: black; 
-    max-width: 50%;
       display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.growToFitWebpage
+{
+  object-fit:cover;
 }
 
 .tbin-background {
@@ -30,6 +34,10 @@ img {
   max-width: 100%;
 }
 
+.whiteText 
+{
+  color:white;
+}
 
 a {
   color: white;
@@ -70,9 +78,15 @@ a .dropdown-item {
   background-color: #343a40;
 }
 
+
 @media(min-width:1025px) {
   .navbar-toggler {
     display: none;
+  }
+
+  .collapse:not(.show)
+  {
+    display:inline-flex;
   }
 }
 
@@ -184,10 +198,7 @@ span
   font-size:larger;
 }
 
-.white-background
-{
-  background-color: white;
-}
+
 
 /*
  * HD Desktop computers

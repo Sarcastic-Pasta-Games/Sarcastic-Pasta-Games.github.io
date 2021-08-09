@@ -8,6 +8,8 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="{{relative}}css/spg.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
@@ -20,9 +22,10 @@
   <meta name="theme-color" content="#ffffff">
   <meta http-equiv="Cache-Control" content="public" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta http-equiv="content-security-policy" content="default-src 'self' https://stackpath.bootstrapcdn.com  ;
+  <meta http-equiv="content-security-policy" content="default-src 'self';
      child-src 'none'; 
      object-src 'none'; 
+     font-src 'self' https://cdn.jsdelivr.net;
      style-src 'self' https://cdn.jsdelivr.net ;
      frame-src 'self' https://widgets.gamejolt.com;
      script-src 'self' https://cdnjs.cloudflare.com https://code.jquery.com https://cdn.jsdelivr.net/">
@@ -35,21 +38,20 @@
 
   <h1><i>Sarcastic Pasta Games</i></h1>
   <div role="navigation">
-    <button class="navbar-toggler " aria-controls="menuGames" aria-expanded="false" aria-label="Toggle navigation"
-      data-target="#menuGames" data-toggle="collapse">
-      <i class="navbar-toggler-icon" class="white-background" aria-hidden="true"></i>
-
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar"
+      aria-expanded="false" aria-controls="menubar">
+      <i class="bi bi-list whiteText"></i>
     </button>
 
 
-    <ul class="nav justify-content-center navbar-collapse " id="menuGames">
+    <ul class="nav justify-content-center navbar-collapse collapse" id="menubar">
       <li class="nav-item">
         <a class="nav-link" href="{{relative}}index.html">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-          href="{{relative}}games.html">Games</a>
-        <div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+        <a class="nav-link dropdown-toggle active" id="dropDownGamesButton" data-bs-toggle="dropdown"
+          aria-expanded="false">Games</a>
+        <div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="dropDownGamesButton">
           <a class="dropdown-item text-white" href="{{relative}}our-games/the-boss.html">The BOSS</a>
           <a class="dropdown-item text-white" href="{{relative}}our-games/the-boss-is-nothing.html">The BOSS is
             nothing</a>
@@ -59,6 +61,7 @@
           <a class=" dropdown-item text-white" href="{{relative}}our-games/spark.html">Spark</a>
         </div>
       </li>
+
       <li class=" nav-item">
         <a class="nav-link" href="{{relative}}crew.html">Crew</a>
       </li>

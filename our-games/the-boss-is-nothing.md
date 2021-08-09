@@ -2,7 +2,7 @@
 title: The Boss is Nothing
 layout: default
 --- 
-<img src="{{relative}}../img/by%20creationsofeve.webp" style="object-fit:cover"
+<img src="{{relative}}../img/by%20creationsofeve.webp" class="growToFitWebpage"
     alt="The BOSS is Nothing Logo" title="The BOSS is Nothing logo" />
   <article>
     <b>
