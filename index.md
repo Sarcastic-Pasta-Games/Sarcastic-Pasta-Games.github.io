@@ -12,14 +12,14 @@ layout: default
 </ol>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <a href="our-games/the-boss.html"><img class=" d-block w-100" src="img/by makorietv.jpg" alt="The boss"></a>
+    <a href="our-games/the-boss.html"><img class="d-block w-100" src="img/by makorietv.webp" alt="The boss"></a>
   </div>
   <div class="carousel-item">
-    <a href="our-games/glitch-in-the-system.html"><img class="d-block w-100" src="img/melodiva.jpg"
+    <a href="our-games/glitch-in-the-system.html"><img class="d-block w-100" src="img/melodiva.webp"
         alt="Glitch in the system"></a>
   </div>
   <div class="carousel-item">
-    <a href="our-games/spark.html"><img class="d-block w-100" src="img/Spark image.png" alt="Spark"></a>
+    <a href="our-games/spark.html"><img class="d-block w-100" src="img/Spark image.webp" alt="Spark"></a>
   </div>
   <div class="carousel-item">
     <a href="our-games/the-boss-is-nothing.html"> <img class="d-block w-100" src="img/by creationsofeve.webp"
@@ -27,12 +27,10 @@ layout: default
   </div>
 </div>
 <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
+  <span aria-hidden="true" title="Previous" >&#5193;</span>
 </a>
 <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
+  <span aria-hidden="true" title="Next">&#8250;</span>
 </a>
 </div>
 <h2>Sarcastic Pasta Games</h2>

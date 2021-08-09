@@ -1,0 +1,4 @@
+User-agent: AdsBot-Google
+Disallow: /
+
+sitemap: https://www.sarcasticpastagames.com/sitemap.xml

@@ -2,7 +2,7 @@
 title: The Boss
 layout: default
 --- 
-<img src="{{relative}}../img/the%20boss%20image.png" alt="The BOSS Logo" title="The BOSS logo"/>
+<img src="{{relative}}../img/the%20boss%20image.webp" alt="The BOSS Logo" title="The BOSS logo"/>
 <article>
   <p>It happened in an instant. Millions of people all over the world have fallen unconscious.
     Scientists are <br> baffled.
@@ -20,4 +20,4 @@ layout: default
     to save his subscribers from someone calling themself the BOSS...</p>
 </article>
 
-<iframe src="https://widgets.gamejolt.com/package/v1?key=KC7eij5R" width="500" height="245" frameborder="0"></iframe>
+<iframe title="The Boss GameJolt widget" src="https://widgets.gamejolt.com/package/v1?key=KC7eij5R" width="500" height="245" frameborder="0"></iframe>

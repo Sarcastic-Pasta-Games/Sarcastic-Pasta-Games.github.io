@@ -1,8 +1,17 @@
 var relative = null;
 if (location.protocol === 'file:') {
-  relative = Array($('link[rel="canonical"]').attr('href').match(/\//g).length - 2).join('../');
+  /**
+   * @type NodeListOf<HTMLLinkElement>
+   */
+  let canonLink = document.querySelectorAll('link[rel="canonical"]');
+
   if (relative == '') relative = './';
+  relative = Array(canonLink.forEach(link => link.href.match(/\//g).length - 2)).join('../')
 }
+/**
+ * @param {string} link
+ * @param {boolean} index
+ */
 function to_relative(link, index) {
   if (!relative) return link;
   var hash = link ? link.match(/#.*$/) : null;
@@ -10,9 +19,9 @@ function to_relative(link, index) {
   return link ? (link.replace(/^\//, relative) + (index ? (link.substr(-1) == '/' ? 'index.html' : '') : '') + (hash ? hash[0] : '')) : null;
 }
 
-$(function () {
+(function () {
   if (relative) {
-    $('a').attr('href', function (a, b) { return to_relative(b, true); });
-    $('img').attr('src', function (a, b) { return to_relative(b, false); });
+    document.querySelectorAll('a').forEach(anchor => { anchor.href = to_relative(anchor.href, true); });
+    document.querySelectorAll('img').forEach(image => { image.src = to_relative(image.src, false); });
   }
 });

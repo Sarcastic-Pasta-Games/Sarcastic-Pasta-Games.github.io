@@ -12,4 +12,4 @@ layout: default
     </b>
   </article>
 
-  <iframe src="https://widgets.gamejolt.com/package/v1?key=dLjkZMsJ" width="500" height="245" frameborder="0"></iframe>
+  <iframe title="The Boss Is Nothing GameJolt Widget" src="https://widgets.gamejolt.com/package/v1?key=dLjkZMsJ" width="500" height="245" frameborder="0"></iframe>

@@ -33,4 +33,4 @@ layout: default
     </p>
 
   </article>
-  <iframe src="https://widgets.gamejolt.com/package/v1?key=kFBwdRe5" width="500" height="245" frameborder="0"></iframe>
+  <iframe title="Glitch in the System GameJolt Widget" src="https://widgets.gamejolt.com/package/v1?key=kFBwdRe5" width="500" height="245" frameborder="0"></iframe>

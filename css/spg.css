@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/spg-codewireland1.png");
+  background-image: url("../img/spg-codewireland1.webp");
   background-repeat: repeat;
   color: white;
   text-align: center;
@@ -33,6 +33,8 @@ img {
 
 a {
   color: white;
+  text-decoration:none;
+  outline-style:none;
 }
 
 .white-background a
@@ -98,6 +100,8 @@ a .dropdown-item {
 
   .navbar-toggler {
     display: block !important;
+    width:48px;
+    height:48px;
   }
 
   .navbar-toggleable-sm.collapse {
@@ -154,10 +158,11 @@ ul
 }
 
 
-hr {
-  border-color: white;
-  height: 1px;
-  width: 15%;
+
+
+.whiteBottomBorder
+{
+  border-bottom: 1px solid white;
 }
 
 article p 
@@ -167,15 +172,21 @@ article p
   margin-right:25%;
 }
 
-
-@media screen and (min-width:1200px)
+.icon 
 {
-  img 
-  {
-    width:30%;
-    height:30%;
-  }
+  width:15%;
+  height:15%; 
 
+}
+
+span 
+{
+  font-size:larger;
+}
+
+.white-background
+{
+  background-color: white;
 }
 
 /*
@@ -185,9 +196,21 @@ article p
 {
   img 
   {
-    width:30%;
-    height:30%;
+    width:50%;
+    height:50%;
   }
+  .icon 
+  {
+    width: 5%;
+    height: 5%;
+  }
+  
+}
+
+.merchIcon
+{
+  width:50%; 
+  height:50%
 }
 
 /*
@@ -199,6 +222,12 @@ article p
   {
     width:30%;
     height:30%;
+  }
+  .icon 
+  {
+    width:15%;
+    height:15%; 
+  
   }
 }
 
@@ -212,4 +241,11 @@ article p
     width:50%;
     height:50%;
   }
+  .icon 
+  {
+    width:15%;
+    height:15%; 
+  
+  }
 }
+

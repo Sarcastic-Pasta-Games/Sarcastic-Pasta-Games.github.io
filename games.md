@@ -9,7 +9,7 @@ layout: default
   <div class="container">
     <div class="row justify-content-end">
       <div class="col">
-        <a href="our-games/the-boss.html"><img src="img/the boss image.png" alt="The Boss"></a>
+        <a href="our-games/the-boss.html"><img src="img/the boss image.webp" alt="The Boss"></a>
         <h3 class="blue-text">The BOSS</h3>
         <p>The BOSS: A Jacksepticeye Fan Game</p>
       </div>
